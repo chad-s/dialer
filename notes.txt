@@ -1,0 +1,20 @@
+Compiling for AVR
+----------------------------------------
+# make
+# make flash
+# make fuse
+
+
+CodeVision AVR
+----------------------------------------
+# wine /Users/chadsutfin/.wine/drive_c/cvavreval/BIN/cvavr.exe
+	Tools --> CodeWizardAVR
+
+
+
+Sources
+----------------------------------------
+
+
+Scratch
+----------------------------------------

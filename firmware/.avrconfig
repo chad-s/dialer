@@ -1,0 +1,9 @@
+-I /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/
+-I /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/
+-I /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/
+-I /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/
+-I /usr/local/CrossPack-AVR-20131216/avr/include/
+-I /usr/local/CrossPack-AVR-20131216/avr/include/avr/
+-I /usr/local/CrossPack-AVR-20131216/avr/include/compat/
+-I /usr/local/CrossPack-AVR-20131216/avr/include/util/
+
