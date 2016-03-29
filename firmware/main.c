@@ -1,7 +1,5 @@
 /* Name: main.c
- * Author: <insert your name here>
- * Copyright: <insert your copyright message here>
- * License: <insert your license reference here>
+ * Author: Chad A. Sutfin
  */
 
 // Changing implementation to Chirps Raven...
@@ -42,11 +40,12 @@ volatile static uint8_t interrupt_flag = 0;
 static void uart_putchar(char c, FILE *stream);
 static FILE uart_output = FDEV_SETUP_STREAM(uart_putchar, NULL, _FDEV_SETUP_WRITE);
 
-static void uart_putchar(char c, FILE *stream)
-{
+static void uart_putchar(char c, FILE *stream) {
+
    if (c == '\n') {
        uart_putchar('\r', stream);
    }
+
 	serial_write(c);
 }
 
@@ -59,7 +58,7 @@ int main(void) {
 
    uint8_t switches = 0;
 
-   /* Initializations */
+   // Initializations 
    world_init();
    dtmf_init();
    serial_init();
@@ -85,7 +84,6 @@ int main(void) {
 
 	return 0;
 }
-
 
 void send_tone_seq(uint32_t sequence, uint8_t num_chars) {
    int i;
