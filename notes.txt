@@ -18,3 +18,8 @@ Sources
 
 Scratch
 ----------------------------------------
+DIG10 = B2 = PCINT2
+DIG09 = B1 = PCINT1
+The pin change interrupt PCI0 will trigger if any enabled PCINT[7:0] pin toggles.
+
+
